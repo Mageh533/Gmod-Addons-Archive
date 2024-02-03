@@ -1,0 +1,10 @@
+CreateConVar( "cqc_enabled", 0, {FCVAR_SERVER_CAN_EXECUTE, FCVAR_REPLICATED, FCVAR_ARCHIVE, FCVAR_NOTIFY}, "Enable CQC." )
+CreateConVar( "cqc_minhealth", 0, {FCVAR_SERVER_CAN_EXECUTE, FCVAR_REPLICATED, FCVAR_ARCHIVE, FCVAR_NOTIFY}, "Minimum health for CQC to be done without EX (disabled by default)" )
+CreateConVar( "cqc_bsmod_killmove_disable_default", 0, {FCVAR_SERVER_CAN_EXECUTE, FCVAR_REPLICATED, FCVAR_ARCHIVE, FCVAR_NOTIFY}, "Allows for custom BSMOD killmoves from the workshop to replace the CQC animations." )
+CreateConVar( "cqc_minhealth_ex", 100, {FCVAR_SERVER_CAN_EXECUTE, FCVAR_REPLICATED, FCVAR_ARCHIVE, FCVAR_NOTIFY}, "Minimum health for CQC to be done with CQC EX" )
+CreateConVar( "cqc_delay", 20, {FCVAR_SERVER_CAN_EXECUTE, FCVAR_REPLICATED, FCVAR_ARCHIVE, FCVAR_NOTIFY}, "The ammount of time you have to wait (in seconds) before you can perform CQC again" )
+CreateConVar( "cqc_lethal", 0, {FCVAR_SERVER_CAN_EXECUTE, FCVAR_REPLICATED, FCVAR_ARCHIVE, FCVAR_NOTIFY}, "Enable to make CQC kill like the original bsmod addon." )
+CreateConVar( "cqc_anytime_behind_ex", 0, {FCVAR_SERVER_CAN_EXECUTE, FCVAR_REPLICATED, FCVAR_ARCHIVE, FCVAR_NOTIFY}, "Allows for CQC to always happen from behind regardless of health with EX." )
+CreateConVar( "cqc_anytime_behind", 0, {FCVAR_SERVER_CAN_EXECUTE, FCVAR_REPLICATED, FCVAR_ARCHIVE, FCVAR_NOTIFY}, "Allows for CQC to always happen from behind regardless of health without EX." )
+
+CreateClientConVar( "cqc_debug_calcview", 0, FCVAR_ARCHIVE, "List all CalcView hooks for debugging." )
